@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BRISA | Moda inspirada en Canarias</title>
+
+    <meta
+        name="description"
+        content="Moda premium inspirada en el Atlántico y las Islas Canarias.">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=DM+Sans:wght@300;400;500;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--==================================================
+                        LOADER
+    ==================================================-->
+
+    <div class="loader">
+
+        <h1>BRISA</h1>
+
+    </div>
+
+    <!--==================================================
+                        CURSOR
+    ==================================================-->
+
+    <div class="cursor"></div>
+
+    <div class="cursor-dot"></div>
+
+    <!--==================================================
+                        HEADER
+    ==================================================-->
+
+    <header class="header">
+
+        <div class="container">
+
+            <a href="#inicio" class="logo">
+
+                BRISA
+
+            </a>
+
+            <nav class="navbar" id="primary-navigation">
+
+                <a href="#inicio">Inicio</a>
+
+                <a href="#coleccion">Colección</a>
+
+                <a href="#historia">Historia</a>
+
+                <a href="#lookbook">Lookbook</a>
+
+                <a href="#newsletter">Comunidad</a>
+
+            </nav>
+
+            <div class="header-actions">
+
+                <button
+                    class="search-btn"
+                    aria-label="Buscar">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </button>
+
+                <button
+                    class="favorite-btn"
+                    aria-label="Favoritos">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                </button>
+
+                <button
+                    class="cart-btn"
+                    aria-label="Carrito">
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                    <span>0</span>
+
+                </button>
+
+                <button
+                    class="menu-btn"
+                    aria-label="Abrir menú"
+                    aria-controls="primary-navigation"
+                    aria-expanded="false">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+      <!--==================================================
+                        HERO
+==================================================-->
+
+<section class="hero" id="inicio">
+    
+    <div class="hero-background" aria-hidden="true"></div>
+
+     
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-container">
+
+        <div class="hero-left">
+
+            <h1>
+
+                EL VERANO
+                <br>
+                TODO EL AÑO
+
+            </h1>
+
+            <p>
+
+                Moda premium inspirada en el Atlántico.
+                Diseñada en Canarias para quienes buscan
+                vivir con calma, libertad y autenticidad.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#coleccion" class="btn-primary">
+
+                    Descubrir colección
+
+                </a>
+
+                <a href="#historia" class="btn-secondary">
+
+                    Nuestra historia
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <img
+                src="assets/hero/hero-card.jpg"
+                alt="Modelo de Brisa frente al Atlántico">
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!--==================================================
+                        COLECCIÓN
+        ==================================================-->
+                <section class="collection" id="coleccion">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <span>NUEVA COLECCIÓN</span>
+
+                    <h2>Verano Todo el Año</h2>
+
+                    <p>
+                        Prendas creadas para acompañarte dentro y fuera de Canarias.
+                    </p>
+
+                </div>
+
+                <div class="products-grid">
+
+                    <!-- Producto 1 -->
+
+                    <article class="product-card">
+
+                        <button class="favorite">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="product-image">
+
+                            <img
+                                src="assets/products/world-tour-front.png"
+                                data-back="assets/products/world-tour-back.png"
+                                alt="World Tour">
+
+                        </div>
+
+                        <div class="product-content">
+
+                            <span>CAMISETA</span>
+
+                            <h3>World Tour</h3>
+
+                            <p>Inspirada en Gran Canaria.</p>
+
+                            <div class="product-footer">
+
+                                <strong>39 €</strong>
+
+                                <button class="buy-btn">
+
+                                    Comprar
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Producto 2 -->
+
+                    <article class="product-card">
+
+                        <button class="favorite">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="product-image">
+
+                            <img
+                                src="assets/products/verano-front.png"
+                                data-back="assets/products/verano-back.png"
+                                alt="Verano">
+
+                        </div>
+
+                        <div class="product-content">
+
+                            <span>CAMISETA</span>
+
+                            <h3>Verano Todo el Año</h3>
+
+                            <p>El verano nunca termina.</p>
+
+                            <div class="product-footer">
+
+                                <strong>39 €</strong>
+
+                                <button class="buy-btn">
+
+                                    Comprar
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Producto 3 -->
+
+                    <article class="product-card">
+
+                        <button class="favorite">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="product-image">
+
+                            <img
+                                src="assets/products/wave-black-front.png"
+                                data-back="assets/products/wave-black-back.png"
+                                alt="Wave Black">
+
+                        </div>
+
+                        <div class="product-content">
+
+                            <span>SUDADERA</span>
+
+                            <h3>Wave Black</h3>
+
+                            <p>450 GSM Premium.</p>
+
+                            <div class="product-footer">
+
+                                <strong>89 €</strong>
+
+                                <button class="buy-btn">
+
+                                    Comprar
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Producto 4 -->
+
+                    <article class="product-card">
+
+                        <button class="favorite">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="product-image">
+
+                            <img
+                                src="assets/products/wave-white-front.png"
+                                data-back="assets/products/wave-white-back.png"
+                                alt="Wave White">
+
+                        </div>
+
+                        <div class="product-content">
+
+                            <span>SUDADERA</span>
+
+                            <h3>Wave White</h3>
+
+                            <p>Minimalismo absoluto.</p>
+
+                            <div class="product-footer">
+
+                                <strong>89 €</strong>
+
+                                <button class="buy-btn">
+
+                                    Comprar
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <div class="collection-button">
+
+                    <a
+                        href="#lookbook"
+                        class="btn-primary">
+
+                        Ver colección completa
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+          <!--==================================================
+                            HISTORIA
+        ==================================================-->
+
+        <section class="story" id="historia">
+
+            <div class="container story-grid">
+
+                <div class="story-image">
+
+                    <img
+                        src="assets/story/story01.png"
+                        alt="Historia de Brisa">
+
+                </div>
+
+                <div class="story-content">
+
+                    <span>NUESTRA HISTORIA</span>
+
+                    <h2>
+
+                        NACIDOS
+                        <br>
+                        DEL ATLÁNTICO.
+
+                    </h2>
+
+                    <p>
+
+                        Brisa nace inspirada por el océano, el viento
+                        y la calma de las Islas Canarias.
+
+                    </p>
+
+                    <p>
+
+                        Cada prenda busca transmitir esa sensación de
+                        libertad que aparece cuando el mar está delante
+                        de ti.
+
+                    </p>
+
+                    <p>
+
+                        No seguimos tendencias.
+
+                        Creamos recuerdos.
+
+                    </p>
+
+                    <div class="story-stats">
+
+                        <div>
+
+                            <h3>2026</h3>
+
+                            <p>Fundación</p>
+
+                        </div>
+
+                        <div>
+
+                            <h3>100%</h3>
+
+                            <p>Diseño propio</p>
+
+                        </div>
+
+                        <div>
+
+                            <h3>∞</h3>
+
+                            <p>Verano</p>
+
+                        </div>
+
+                    </div>
+
+                    <a
+                        href="#lookbook"
+                        class="btn-primary">
+
+                        Descubrir Brisa
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+    
+¡
+        <!--==================================================
+                            VALORES
+        ==================================================-->
+
+        <section class="values">
+
+            <div class="container">
+
+                <div class="value-card">
+
+                    <i class="fa-solid fa-water"></i>
+
+                    <h3>Inspiración</h3>
+
+                    <p>
+                        Cada colección nace del océano y la naturaleza de Canarias.
+                    </p>
+
+                </div>
+
+                <div class="value-card">
+
+                    <i class="fa-solid fa-shirt"></i>
+
+                    <h3>Calidad</h3>
+
+                    <p>
+                        Materiales premium y acabados pensados para durar.
+                    </p>
+
+                </div>
+
+                <div class="value-card">
+
+                    <i class="fa-solid fa-earth-europe"></i>
+
+                    <h3>Comunidad</h3>
+
+                    <p>
+                        Una marca para quienes buscan vivir con calma y libertad.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!--==================================================
+
+                lookbook
+
+===================================================-->
+        </section>
+        <section class="lookbook" id="lookbook">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <span>LOOKBOOK</span>
+
+                    <h2>Summer Editorial</h2>
+
+                    <p>
+                        Una colección inspirada en el Atlántico y el estilo de vida canario.
+                    </p>
+
+                </div>
+
+                <div class="lookbook-grid">
+
+                    <img src="assets/lookbook/look01.png" alt="Lookbook 1">
+
+                    <img src="assets/lookbook/look02.png" alt="Lookbook 2">
+
+                    <img src="assets/lookbook/look03.png" alt="Lookbook 3">
+
+                    <img src="assets/lookbook/look04.png" alt="Lookbook 4">
+
+                    <img src="assets/lookbook/look05.png" alt="Lookbook 5">
+
+                    <img src="assets/lookbook/look06.png" alt="Lookbook 6">
+
+                </div>
+
+            </div>
+
+        </section>
+<!--==================================================
+
+                NEWSLETTER
+
+===================================================-->
+
+<section class="newsletter" id="newsletter">
+
+    <div class="container">
+
+        <div class="newsletter-box">
+
+            <div class="newsletter-left">
+
+                <span>
+
+                    ÚNETE A LA BRISA
+
+                </span>
+
+                <h2>
+
+                    El Atlántico siempre vuelve.
+                    <br>
+                    Ahora tú también.
+
+                </h2>
+
+                <p>
+
+                    Descubre antes que nadie nuevas
+                    colecciones, lanzamientos y momentos
+                    inspirados en el océano.
+
+                </p>
+
+                <form class="newsletter-form">
+
+                    <label class="sr-only" for="newsletter-email">Tu correo electrónico</label>
+                    <input
+                        id="newsletter-email"
+                        name="email"
+                        type="email"
+                        autocomplete="email"
+                        placeholder="Tu correo electrónico"
+                        required>
+
+                    <button type="submit">
+
+                        Entrar en Brisa
+
+                    </button>
+
+                </form>
+
+                <small>
+
+                    Sin spam.
+                    Solo océano, inspiración y nuevas colecciones.
+
+                </small>
+
+            </div>
+
+            <div class="newsletter-right">
+
+                <img
+                    src="assets/hero/newsletter.jpg"
+                    alt="Océano Atlántico">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    <!--==================================================
+                            FOOTER
+    ==================================================-->
+
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-logo">
+
+                <h2>BRISA</h2>
+
+                <span>28° N · ATLANTIC OCEAN</span>
+
+                <p>
+
+                    Inspirado por el Atlántico.
+                    Diseñado para durar.
+
+                </p>
+
+            </div>
+
+            <div class="footer-social">
+
+                <a href="#">Instagram</a>
+
+                <a href="#">TikTok</a>
+
+                <a href="#">Contacto</a>
+
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+
+                <p>
+
+                    © 2026 BRISA · Todos los derechos reservados.
+
+                </p>
+
+                <span>
+
+                    Hecho entre el océano, el viento y las Islas Canarias.
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
